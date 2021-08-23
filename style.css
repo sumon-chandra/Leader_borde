@@ -193,6 +193,42 @@ Courses Style
     margin-top: 2px;
 }
 
+#add-list-item{
+    background-color: #562EFF;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.last-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input input{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+}
+#check-button{
+    background-color: #562EFF;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 /* Media Queries */
 
 /* Mobile devices */
@@ -219,6 +255,9 @@ Courses Style
     }
    
 }
+
+
+
 /* Tablet devices */
 
 @media only screen and (min-width:688px) and (max-width:992px) {

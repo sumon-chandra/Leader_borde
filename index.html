@@ -35,8 +35,8 @@
     <main>
         <!-- ------------Top players and Top blogs------------ -->
         <section class="container">
-            <div class="top_players ">
-                <h2 class="section_title">Top Players</h2>
+            <div id="players-section" class="top_players ">
+                <h2 id="players" class="section_title">Top Players</h2>
                <div class="players">
                 <div class="player">
                     <img src="images/players/player-1.png" alt="">
@@ -65,8 +65,8 @@
                </div>
             </div>
             <hr>
-            <div class="top_blogs">
-                <h2 class="section_title">Top Blogs</h2>
+            <div id="blog-section" class="top_blogs">
+                <h2 id="blogs" class="section_title">Top Blogs</h2>
                 <div class="blogs">
                     <article class="blog">
                           <div class="thambnail">
@@ -109,77 +109,96 @@
         </section>
         <!-- Latest Courses -->
         <section class="container">
-            <h2 class="section_title">Latest Courses</h2>
-            <div class="courses">
-                <div class="course">
-                    <div class="course_banner">
-                        <img src="images/courses/course-1.png" alt="">
-                    </div>
-                    <div class="course_detail">
-                        <h3 class="course_title">React - The Complete Guide 2022</h3>
-                        <p class="course_author">Reed Krakoff.</p>
-                        <div class="course_info">
-                            <div>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star empty"></i>
-                                <span>4.5</span>
+            <div id="course-section">
+                <h2 id="courses" class="section_title">Latest Courses</h2>
+                <div class="courses">
+                    <div class="course">
+                        <div class="course_banner">
+                            <img src="images/courses/course-1.png" alt="">
+                        </div>
+                        <div class="course_detail">
+                            <h3 class="course_title">React - The Complete Guide 2022</h3>
+                            <p class="course_author">Reed Krakoff.</p>
+                            <div class="course_info">
+                                <div>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span>4.5</span>
+                                </div>
+                                
+                                <div class="course_duration">
+                                    <p><i class="far fa-clock"></i> 01:30hr</p>
+                                </div>
                             </div>
-                            
-                            <div class="course_duration">
-                                <p><i class="far fa-clock"></i> 01:30hr</p>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course_banner">
+                            <img src="images/courses/course-2.png" alt="">
+                        </div>
+                        <div class="course_detail">
+                            <h3 class="course_title">React - The Complete Guide 2022</h3>
+                            <p class="course_author">Reed Krakoff.</p>
+                            <div class="course_info">
+                                <div>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span>4.5</span>
+                                </div>                           
+                                <div class="course_duration">
+                                    <p><i class="far fa-clock"></i> 01:30hr</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course_banner">
+                            <img src="images/courses/course-3.png" alt="">
+                        </div>
+                        <div class="course_detail">
+                            <h3 class="course_title">React - The Complete Guide 2022</h3>
+                            <p class="course_author">Reed Krakoff.</p>
+                            <div class="course_info">
+                                <div>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <div class="course_duration">
+                                    <p><i class="far fa-clock"></i> 01:30hr</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="course">
-                    <div class="course_banner">
-                        <img src="images/courses/course-2.png" alt="">
+                <div class="last-container">
+                    <div id="course-list">
+                        <h2 id="more-course">More Courses</h2>
+                        <ul id="item-parent">
+                            <li class="item">Python</li>
+                            <li class="item">Java</li>
+                            <li class="item">Rube</li>
+                            <li class="item">MySql</li>
+                        </ul>
+                        <button id="add-list-item">Add course if you want !</button>
                     </div>
-                    <div class="course_detail">
-                        <h3 class="course_title">React - The Complete Guide 2022</h3>
-                        <p class="course_author">Reed Krakoff.</p>
-                        <div class="course_info">
-                            <div>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star empty"></i>
-                                <span>4.5</span>
-                            </div>                           
-                            <div class="course_duration">
-                                <p><i class="far fa-clock"></i> 01:30hr</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course_banner">
-                        <img src="images/courses/course-3.png" alt="">
-                    </div>
-                    <div class="course_detail">
-                        <h3 class="course_title">React - The Complete Guide 2022</h3>
-                        <p class="course_author">Reed Krakoff.</p>
-                        <div class="course_info">
-                            <div>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star empty"></i>
-                                <span>4.5</span>
-                            </div>
-                            <div class="course_duration">
-                                <p><i class="far fa-clock"></i> 01:30hr</p>
-                            </div>
-                        </div>
+                    <div class="input">
+                        <input id="input-field" value="0" type="text" placeholder="Write a number">
+                        <button id="check-button">Check</button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <script src="js/leader-board.js"></script>
 </body>
 </html>
